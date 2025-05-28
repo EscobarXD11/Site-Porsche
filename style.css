@@ -7,6 +7,7 @@
 body {
     padding: 0px;
     margin: 0px;
+      background-color: #f7f7f7;
 }
 
 
@@ -57,7 +58,7 @@ h1 {
     font-size: 2.5em;
   font-family: "Porsche Next";
 color: white;
-text-shadow: 1px 1px 5px black;
+text-shadow: 4px 3px 6px black;
  margin-top: 120px;
   
   left: 50%;
@@ -85,6 +86,18 @@ top: 7%;
   border: 2px solid rgb(146, 146, 146);
 }
 
+#slogan {
+    color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.2em;
+ text-align: center;
+  background-color: #f7f7f7;
+
+margin-top: 50px;
+margin-bottom: -45px;
+  letter-spacing: 1px;
+}
+
 .topicos-porsche {
   display: flex;
   justify-content: center;
@@ -105,10 +118,12 @@ top: 7%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .card:hover {
   transform: translateY(-12px);
+  
 }
 
 .card h2 {
@@ -122,7 +137,11 @@ top: 7%;
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
+     
+
 }
+
+
 
 #card2 {
   height: 170px;
@@ -137,7 +156,7 @@ top: 7%;
 
 .carro {
   background-image: url(midias/Novo-Porsche-gt3-RS-na-pista-de-Silverstone-2.jpg);
-  height: 900px;
+  height: 700px;
     background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -161,4 +180,295 @@ margin-top: 80px;
   letter-spacing: 1px;
  
 
+}
+
+
+.topico-viagem {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap; /* quebra para tela pequena */
+  background-color: #f7f7f7;
+}
+
+.topico-viagem > article {
+  flex: 1 1 calc(40% - 24px); /* 2 cards por linha, subtrai o gap */
+  max-width: calc(50% - 24px);
+}
+
+#texto-viagem{
+   color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.2em;
+ text-align: center;
+  background-color: #f7f7f7;
+
+margin-top: 60px;
+  letter-spacing: 1px;
+}
+
+.card911 {
+background-image: url(midias/911.jpg);
+background-position:60%;
+background-size: cover;
+  width: 550px;
+  height: 650px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+     box-shadow:    inset 0 60px 850px rgba(0, 0, 0, 0.7),
+    0px 0px 10px black;
+          transition: transform 0.3s ease; /* transição suave */
+}
+
+.card911:hover {
+        transform: translateY(-7px);
+
+}
+
+.card911 h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0px 1px 4px black;
+  font-size:2.5em;
+  margin-top: 10px;
+}
+
+.card911 p {
+  text-align: start;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 4px black;
+  font-size:1.1em;
+margin-top: 530px;
+width: 400px;
+
+}
+
+.card718 {
+    background-image: url(midias/718.webp);
+background-position: center;
+background-size: cover;
+background-position:44%;
+  width: 550px;
+  height: 650px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+    box-shadow:    inset 0 60px 850px rgba(0, 0, 0, 0.7),
+    0px 0px 10px black;
+      transition: transform 0.3s ease; /* transição suave */
+}
+
+.card718:hover {
+        transform: translateY(-7px);
+
+}
+
+.card718 h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0px 1px 4px black;
+  font-size:2.5em;
+  margin-top: 10px;
+}
+
+.card718 p {
+  text-align: start;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 4px black;
+  font-size:1.1em;
+margin-top: 530px;
+width: 400px;
+
+}
+
+.cardtaycan {
+    background-image: url(midias/taycan.jpg);
+background-position: center;
+background-size: cover;
+background-position:50% ;
+  width: 550px;
+  height: 650px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+    box-shadow:    inset 0 60px 850px rgba(0, 0, 0, 0.7),
+    0px 0px 10px black;
+  transition: transform 0.3s ease; /* transição suave */
+  }
+
+  .cardtaycan:hover {
+        transform: translateY(-7px);
+
+}
+
+.cardtaycan h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0px 1px 4px black;
+  font-size:2.5em;
+  margin-top: 10px;
+}
+.cardtaycan p {
+  text-align: start;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 4px black;
+  font-size:1.1em;
+margin-top: 530px;
+width: 400px;
+
+}
+
+.cardpanamera {
+    background-image: url(midias/panamera.jpg);
+background-position: center;
+background-size: cover;
+background-position: 25%;
+  width: 550px;
+  height: 650px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+    box-shadow:    inset 0 60px 850px rgba(0, 0, 0, 0.7),
+    0px 0px 10px black;
+      transition: transform 0.3s ease; /* transição suave */
+}
+
+.cardpanamera:hover {
+        transform: translateY(-7px);
+
+}
+
+.cardpanamera h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0px 1px 4px black;
+  font-size:2.5em;
+  margin-top: 10px;
+}
+.cardpanamera p {
+  text-align: start;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 4px black;
+  font-size:1.1em;
+margin-top: 530px;
+width: 400px;
+
+}
+
+.cardmacan {
+    background-image: url(midias/macan.jpg);
+background-position: center;
+background-size: cover;
+background-position: 60%;
+  width: 550px;
+  height: 650px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+    box-shadow:    inset 0 60px 850px rgba(0, 0, 0, 0.7),
+    0px 0px 10px black;
+      transition: transform 0.3s ease; /* transição suave */
+}
+
+.cardmacan:hover {
+        transform: translateY(-7px);
+
+}
+
+.cardmacan h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0px 1px 4px black;
+  font-size:2.5em;
+  margin-top: 10px;
+}
+.cardmacan p {
+  text-align: start;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 4px black;
+  font-size:1.1em;
+margin-top: 530px;
+width: 400px;
+
+}
+
+
+.cardcayenne {
+    background-image: url(midias/cayene.jpg);
+background-position: center;
+background-size: cover;
+background-position: 33%;
+  width: 550px;
+  height: 650px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+    box-shadow:    inset 0 60px 850px rgba(0, 0, 0, 0.7),
+    0px 0px 10px black;
+      transition: transform 0.3s ease; /* transição suave */
+}
+
+.cardcayenne:hover {
+        transform: translateY(-7px);
+
+}
+
+
+.cardcayenne h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 0px 1px 4px black;
+  font-size:2.5em;
+  margin-top: 10px;
+}
+.cardcayenne p {
+  text-align: start;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 4px black;
+  font-size:1.1em;
+margin-top: 530px;
+width: 400px;
+
+}
+
+
+
+
+
+
+footer {
+  height: 300px;
+  background-color: #333;
 }
